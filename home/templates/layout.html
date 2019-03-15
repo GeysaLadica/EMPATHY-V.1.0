@@ -7,20 +7,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Empathy</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="{% static 'css/style.css' %}">
     <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-    <section id="grid">
-        <header class="GridHeader">Header</header>
-        <nav class="GridNav">Nav</nav>
-        <article class="GridContent">
-            <div class="button-box">
-                <button>Cadastre-se</button>
+    <div id="grid">
+        <nav>
+            <div id="pages">
+                <p>Aqui vem o logo</p>
+                <a href="#">Sobre</a>
+                <a href="#">Quem Somos</a>
+                <a href="#">Blog</a>
+                <a href="#">Imigrantes</a>
+                <a href="#">Nos acompanhe</a>
             </div>
+        </nav>
+        <header>Header</header>
+        <article class="GridContent">
+                <h3>Junte-se a nós</h3>
+            <section>
+                <div class="user">
+                    <p>
+                        Preciso de ajuda
+                    </p>
+                    <div class="button-box">
+                        <button>Imigrante</button>
+                    </div>
+                </div>
+                <div class="user">
+                <p>
+                    Posso ajudar
+                </p>
+                <div class="button-box">
+                    <button>Empresa</button>
+                </div>
+                </div>
+            </section>
         </article>
-        <aside class="GridAside">Asside</aside>
-        <footer class="GridFooter">Footer</footer>
-    </section>
+        <aside>
+            <p> 
+                frase ou imagem
+            </p>
+        </aside>
+        <section id="markting"> <!--Porque se juntar a nós - marketing -->
+            <p>
+                PORQUE SE JUNTAR A NOS
+            </p>
+        </section>
+         
+
+        <footer>Footer</footer>
+    </div>
 </body>
 </html>
